@@ -1,9 +1,30 @@
 .bg-purple-1000 {
-    background: linear-gradient(34deg, rgba(129,86,201,1) 0%, rgba(201,70,252,1) 100%);
-    background: url(https://static.vecteezy.com/system/resources/previews/007/120/269/original/night-landscape-with-silhouettes-of-mountains-and-sky-with-stars-starry-night-sky-background-dark-blue-sky-with-shinning-stars-illustration-free-vector.jpg);
+    background: rgba(48, 52, 70, 0.7);
     background-size: cover;
 }
 
+.background {
+    background: url(./Street.jpeg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+    opacity: 0.2;
+}
+
+.foreground {
+    z-index: 1;
+}
+
 .text-shadow {
-    text-shadow: 1px 1px 10px #000;
+    text-shadow:
+    -2px -2px 0 #232634,  
+    2px -2px 0 #232634,
+    -2px 2px 0 #232634,
+    2px 2px 0 #232634;
 }
