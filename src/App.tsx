@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Clock from './components/clock'
 import Greeting from './components/greeting'
+import Shortcut from './components/shortcut'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       </div>
       <div className='flex items-center justify-center absolute h-screen w-screen top-0 left-0 gap-20'>
         <div className='flex flex-col items-center justify-center h-1/2 bg-purple-1000 rounded-2xl w-1/3 shadow-xl'>
+          <Shortcut />
         </div>
         <div className='flex flex-col items-center justify-center h-1/2 bg-purple-1000 rounded-2xl w-1/3 shadow-xl'>
         </div>

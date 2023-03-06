@@ -1,6 +1,25 @@
+:root {
+    --cat-surface0: #414559;
+    --cat-lavender: #babbf1;
+}
+
 .bg-purple-1000 {
     background: rgba(48, 52, 70, 0.7);
     background-size: cover;
+}
+
+.border-surface0 {
+    border-color: var(--cat-surface0);
+}
+.bg-surface0 {
+    background: var(--cat-surface0);
+}
+
+a {
+    color: var(--cat-lavender);
+}
+a:hover {
+    color: #535bf2;
 }
 
 .background {
