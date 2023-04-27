@@ -28,7 +28,7 @@ function App() {
           <Greeting />
         </div>
         <div className='flex items-center justify-center absolute h-screen w-screen top-0 left-0 gap-20'>
-          <div className='grid grid-cols-5 grid-rows-3 h-1/2 bg-purple-1000 rounded-2xl w-1/3 shadow-xl'>
+          <div className='grid grid-cols-5 grid-rows-3 h-1/2 bg-purple-1000 rounded-2xl w-1/3 shadow-xl max-w-full justify-items-center'>
             <Shortcut link={twitter} />
             <Shortcut link={reddit} />
             <Shortcut link={youtube} />
